@@ -1,3 +1,147 @@
+* {
+  font-family: "Chakra Petch", sans-serif;
+}
+
 body {
-    font-family: 'Chakra Petch', sans-serif;
+  background-image: url(../img/fundo-site.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+  color: #f3f3f3;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.card {
+  background-color: #070d12;
+  width: 400px;
+  border: 2px solid #5b0656;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card .my-informations {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card .my-informations img {
+  width: 130px;
+  border-radius: 90px;
+  border: 4px solid #5b0656;
+}
+
+.card .my-informations .name {
+  font-size: 26px;
+}
+
+.card .my-informations .office {
+  font-size: 20px;
+  color: rgb(167, 164, 164);
+}
+
+.card .contents {
+  margin-top: 15px;
+}
+
+.card .tabs {
+  display: flex;
+}
+
+.card .tabs img {
+  width: 30px;
+}
+
+.card .tabs .tab {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.2 ease-in-out;
+}
+
+.card .tabs .tab.selected {
+  background-color: #534e54;
+}
+
+.card .informations-tabs {
+  background-color: #534e54;
+}
+
+.card .tabs .tab:hover {
+  background-color: #5b0656;
+}
+
+.informations-tabs .information {
+  min-height: 300px;
+  padding: 15px;
+  display: none;
+}
+
+.informations-tabs .information.selected {
+  display: block;
+}
+
+.informations-tabs .sub-title {
+  font-size: 23px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.informations-tabs .description {
+  font-size: 18px;
+  max-height: 200px;
+  overflow-y: auto;
+  padding-right: 15px;
+  text-align: justify;
+}
+
+.informations-tabs .description span {
+  color: #5b0656;
+  font-weight: bold;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  max-height: 180px;
+  overflow-y: auto;
+}
+
+.social-media li a {
+  width: 250px;
+  display: block;
+  color: #f3f3f3;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.social-media li a:hover {
+  opacity: 0.6;
+}
+
+.social-media .curriculo {
+  background-color: #5b0656;
+}
+
+.social-media .linkedin {
+  background-color: #7d0875;
+}
+
+.social-media .github {
+  background-color: #9f0995;
 }
