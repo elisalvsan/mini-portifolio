@@ -10,7 +10,7 @@ Rápida descrição do objetivo de fazer esse projeto
 | :fire: Desafio     | [MapaDev Week - Dev em Dobro](https://www.youtube.com/c/DevemDobro)
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://github.com/elisalvsan/mini-portifolio/tree/main/src/assets/img/mini-portifolio.jpg?raw=true#vitrinedev)
+![](https://github.com/elisalvsan/mini-portifolio/blob/main/src/assets/img/mini-portifolio.jpg?raw=true#vitrinedev)
 
 ## Detalhes do projeto
 
