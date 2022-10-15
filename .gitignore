@@ -1,2 +1,4 @@
 # Ignore todos os arquivos de texto
 *.txt
+
+.hintrc
